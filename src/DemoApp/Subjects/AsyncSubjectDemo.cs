@@ -1,5 +1,4 @@
 ﻿using System.Reactive.Subjects;
-using Console = System.Console;
 
 namespace DemoApp.Subjects
 {
