@@ -1,14 +1,13 @@
-﻿using System;
-using System.Reactive.Subjects;
+﻿using System.Reactive.Subjects;
 
-namespace DemoApp.Subjects
+namespace DemoApp.PART_1___Getting_started.Key_types
 {
     /// <summary>
     /// Subject&lt;T&gt; is the most basic of the subjects.
     /// Effectively you can expose your Subject&lt;T&gt; behind a method that returns IObservable&lt;T&gt;
     /// but internally you can use the OnNext, OnError and OnCompleted methods to control the sequence.
     /// </summary>
-    public static class SubjectDemo
+    public static class SubjectExample
     {
         /// <summary>
         /// In this very basic example, creates a subject, subscribe to that subject and then publish values to the sequence (by calling subject.OnNext(T)).

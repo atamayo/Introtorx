@@ -2,12 +2,12 @@
 using System.Reactive.Subjects;
 using System.Threading;
 
-namespace DemoApp.Subjects
+namespace DemoApp.PART_1___Getting_started.Key_types
 {
     /// <summary>
     /// ReplaySubject&lt;T&gt; provides the feature of caching values and then replaying them for any late subscriptions.
     /// </summary>
-    public class ReplaySubjectDemo
+    public class ReplaySubjectExample
     {
         
        public static void ReplaySubjectBasic()

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoApp
+namespace DemoApp.PART_1___Getting_started.Key_types
 {
     public static class Helpers
     {

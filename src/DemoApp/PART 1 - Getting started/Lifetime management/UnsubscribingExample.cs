@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reactive.Subjects;
 
-namespace DemoApp.Lifetime_management
+namespace DemoApp.PART_1___Getting_started.Lifetime_management
 {
-    public static class UnsubscribingDemo
+    public static class UnsubscribingExample
     {
         
         /// <summary>
@@ -12,7 +12,7 @@ namespace DemoApp.Lifetime_management
         /// allowing subscriptions to come and go without affecting each other. In this example we initially have two subscriptions, we then dispose of one subscription early which still
         /// allows the other to continue to receive publications from the underlying sequence:
         /// </summary>
-        public static void UnsubscribingExample()
+        public static void UnsubscribingExample1()
         {
             var values = new Subject<int>();
             var firstSubscription = values.Subscribe(value => 

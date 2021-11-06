@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Reactive.Subjects;
 using System.Threading;
-using DemoApp.Lifetime_management;
-using DemoApp.Subjects;
+using DemoApp.PART_1___Getting_started.Key_types;
+using DemoApp.PART_2___Sequence_basics;
 
 namespace DemoApp
 {
@@ -10,14 +10,14 @@ namespace DemoApp
     {
         static void Main(string[] args)
         {
+          
             /*
             var numbers = new MySequenceOfNumbers();
             var observer = new MyConsoleObserver<int>();
             numbers.Subscribe(observer);
             */
            
-             
-            DisposableFactoryDemo.DisposableBasicExample();      
+            SimpleFactoryMethods.ObservableReturnFactory();      
           Console.ReadKey();
 
 

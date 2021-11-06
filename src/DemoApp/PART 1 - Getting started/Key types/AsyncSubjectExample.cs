@@ -1,13 +1,13 @@
 ﻿using System.Reactive.Subjects;
 
-namespace DemoApp.Subjects
+namespace DemoApp.PART_1___Getting_started.Key_types
 {
     /// <summary>
     /// AsyncSubject&lt;T&gt; is similar to the Replay and Behavior subjects in the way that it caches values,
     /// however it will only store the last value, and only publish it when the sequence is completed. The general usage of the AsyncSubject&lt;T&gt;
     /// is to only ever publish one value then immediately complete. This means that is becomes quite comparable to Task&lt;T&gt;.
     /// </summary>
-    public static class AsyncSubjectDemo
+    public static class AsyncSubjectExample
     {
 
         /// <summary>

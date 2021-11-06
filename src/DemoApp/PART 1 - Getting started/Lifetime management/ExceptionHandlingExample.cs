@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reactive.Subjects;
 
-namespace DemoApp.Lifetime_management
+namespace DemoApp.PART_1___Getting_started.Lifetime_management
 {
-    public static class ExceptionHandlingDemo
+    public static class ExceptionHandlingExample
     {
 
         /// <summary>

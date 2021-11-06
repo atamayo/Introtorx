@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Reactive.Disposables;
 
-namespace DemoApp.Lifetime_management
+namespace DemoApp.PART_1___Getting_started.Lifetime_management
 {
-    public static class DisposableFactoryDemo
+    public static class DisposableFactoryExample
     {
         
         /// <summary>
@@ -18,6 +18,5 @@ namespace DemoApp.Lifetime_management
             Console.WriteLine("Calling again...");
             disposable.Dispose();
         }
-        
     }
 }

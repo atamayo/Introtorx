@@ -2,18 +2,18 @@
 using System.Reactive.Subjects;
 using Console = System.Console;
 
-namespace DemoApp.Subjects
+namespace DemoApp.PART_1___Getting_started.Key_types
 {
     /// <summary>
     /// BehaviorSubject&lt;T&gt; is similar to ReplaySubject&lt;T&gt; except it only remembers the last publication. BehaviorSubject&lt;T&gt;
     /// also requires you to provide it a default value of T. This means that all subscribers will receive a value immediately (unless it is already completed).
     /// </summary>
-    public static class BehaviorSubjectDemo
+    public static class BehaviorSubjectExample
     {
         /// <summary>
         /// In this example the value 'a' is written to the console:
         /// </summary>
-        public static void BehaviorSubjectExample()
+        public static void BehaviorSubjectExample1()
         {
             //Need to provide a default value.
             var subject = new BehaviorSubject<string>("a");

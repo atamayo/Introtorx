@@ -2,9 +2,9 @@
 using System.Diagnostics;
 using System.Threading;
 
-namespace DemoApp.Lifetime_management
+namespace DemoApp.PART_1___Getting_started.Lifetime_management
 {
-    public static class DisposableDemo
+    public static class DisposableExample
     {
         public static void DisposableTimeItExample()
         {
